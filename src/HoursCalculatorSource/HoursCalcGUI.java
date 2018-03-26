@@ -1,6 +1,6 @@
 
  
-package hours_calculator;
+package HoursCalculatorSource;
 
 /**
  *
@@ -9,7 +9,6 @@ package hours_calculator;
 
 public class HoursCalcGUI extends javax.swing.JFrame {
 
-    private CoreCalc calculator;
     
     public HoursCalcGUI() {
         initComponents();

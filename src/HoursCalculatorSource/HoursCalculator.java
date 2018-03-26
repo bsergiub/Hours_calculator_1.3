@@ -1,17 +1,18 @@
 
-package hours_calculator;
+package HoursCalculatorSource;
 
 /**
  *
  * @author Sergiu Borlovan
  */
-public class Hours_calculator {
+public class HoursCalculator {
 
 
     
     public static void main(String[] args) {
         HoursCalcGUI app = new HoursCalcGUI();
         app.setVisible(true);
+
     }
   
 

@@ -1,5 +1,5 @@
 
-package hours_calculator;
+package HoursCalculatorSource;
 
 /**
  *
@@ -282,6 +282,7 @@ public class jSettingsFrame extends javax.swing.JFrame {
 
     private void jSaveButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jSaveButtonActionPerformed
         CoreCalc calculator = new CoreCalc();
+        
         int newHrsDS = Integer.parseInt(jDShrsField.getText());
         calculator.setDS(newHrsDS);
         
